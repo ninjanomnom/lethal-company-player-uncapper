@@ -1,0 +1,13 @@
+.vs/
+*/bin/*
+*.dll
+*.pdb
+*.cache
+
+# Why is gitignore like this, this ignores everything in /obj except for PluginInfo.cs
+LethalCompanyPlayerUnlock/obj/*
+!LethalCompanyPlayerUnlock/obj/Debug/
+LethalCompanyPlayerUnlock/obj/Debug/*
+!LethalCompanyPlayerUnlock/obj/Debug/net48/
+LethalCompanyPlayerUnlock/obj/Debug/net48/*
+!LethalCompanyPlayerUnlock/obj/Debug/net48/PluginInfo.cs
